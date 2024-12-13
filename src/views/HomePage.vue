@@ -15,7 +15,7 @@ const navigateToAboutUs = () => {
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-6xl">
     <!-- Text Section -->
-    <div class="p-6">
+    <div class="p-6 animate-fade-in">
       <h1 class="text-[3.0rem] sm:text-[3.0rem] md:text-[3.5rem] lg:text-[5.0rem] font-black text-gray-900 mb-4 leading-tight">
         <span class="font-bold">Revolutions Start With</span><br />
         <span class="text-[4.0rem] sm:text-[4.5rem] md:text-[5.0rem] lg:text-[6.0rem] font-extra-bold text-gray-900">You!</span>
@@ -26,21 +26,22 @@ const navigateToAboutUs = () => {
       <div class="flex space-x-4">
         <button
             @click="redirectToDiscord"
-            class="bg-gray-900 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-gray-700 transition">
+            class="bg-gray-900 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-gray-700 transition animate-fade-in transform hover:scale-105 hover:rotate-2"
+        >
           Join Us
         </button>
         <button
             @click="navigateToAboutUs"
-            class="border border-gray-900 text-gray-900 px-6 py-3 rounded-md text-lg font-semibold hover:bg-gray-900 hover:text-white transition">
+            class="border border-gray-900 text-gray-900 px-6 py-3 rounded-md text-lg font-semibold hover:bg-gray-900 hover:text-white transition animate-fade-in transform hover:scale-105 hover:rotate-2"
+        >
           About Us
         </button>
       </div>
     </div>
     <!-- Image Section -->
-    <div class="image-container">
-      <img src="../assets/frontpage_image.jpg" alt="Descriptive Alt Text" class="filter invert">
+    <div class="image-container animate-fade-in">
+      <img src="../assets/frontpage_image.jpg" alt="Descriptive Alt Text" class="filter invert" />
     </div>
-
   </div>
 </template>
 
