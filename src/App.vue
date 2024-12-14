@@ -5,7 +5,7 @@ import Header from './components/Header.vue';
 <template>
   <div id="app" class="flex flex-col min-h-screen">
     <Header />
-    <main class="flex-grow grid place-items-center">
+    <main>
       <router-view />
     </main>
   </div>
