@@ -16,19 +16,18 @@ const navigateToAboutUs = () => {
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-6xl">
     <!-- Text Section -->
     <div class="p-6 animate-fade-in">
-      <h1 class="text-[3.0rem] sm:text-[3.0rem] md:text-[3.5rem] lg:text-[5.0rem] font-black text-gray-900 mb-4 leading-tight">
-        <span class="font-bold">Revolutions Start With</span><br />
-        <span class="text-[4.0rem] sm:text-[4.5rem] md:text-[5.0rem] lg:text-[6.0rem] font-extra-bold text-gray-900">You!</span>
+      <h1 class="text-[3.0rem] sm:text-[3.0rem] md:text-[3.5rem] lg:text-[5.0rem] font-bold text-gray-900 mb-4 leading-tight">
+        The price of living is not your life
       </h1>
       <p class="text-[1.125rem] text-gray-600 mb-6">
-        Join us in making a difference. Your actions make a difference.
+        Join us in making a difference.
       </p>
       <div class="flex space-x-4">
         <button
             @click="redirectToDiscord"
             class="bg-gray-900 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-gray-700 transition animate-fade-in transform hover:scale-105 hover:rotate-2"
         >
-          Join Us
+          Join
         </button>
         <button
             @click="navigateToAboutUs"
